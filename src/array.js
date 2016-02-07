@@ -1,5 +1,6 @@
 'use strict';
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
 if (!Array.prototype.indexOf) {
     Array.prototype.indexOf = function(searchElement /*, fromIndex */) {
         if (this == null) {
@@ -43,7 +44,7 @@ if (!Array.prototype.indexOf) {
     };
 }
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf
 if (!Array.prototype.lastIndexOf) {
     Array.prototype.lastIndexOf = function(searchElement /*, fromIndex */) {
         if (this == null) {
@@ -75,7 +76,7 @@ if (!Array.prototype.lastIndexOf) {
 
 }
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 if (!Array.prototype.every) {
     Array.prototype.every = function(callbackfn /*, thisp */) {
 
@@ -105,7 +106,7 @@ if (!Array.prototype.every) {
     };
 }
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 if (!Array.prototype.forEach) {
     Array.prototype.forEach = function(callbackfn /*, thisArg */) {
 
@@ -134,6 +135,7 @@ if (!Array.prototype.forEach) {
     };
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 if (!Array.prototype.filter) {
     Array.prototype.filter = function(callbackfn /*, thisArg */) {
 
@@ -169,6 +171,7 @@ if (!Array.prototype.filter) {
     };
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 if (!Array.prototype.map) {
     Array.prototype.map = function(callbackfn /*, thisArg */) {
 
@@ -200,6 +203,7 @@ if (!Array.prototype.map) {
     };
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
 if (!Array.prototype.some) {
     Array.prototype.some = function(callbackfn /*, thisArg */) {
 
@@ -229,6 +233,7 @@ if (!Array.prototype.some) {
     };
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 if (!Array.prototype.reduce) {
     Array.prototype.reduce = function(callbackfn /*, initialValue */) {
 
@@ -278,6 +283,7 @@ if (!Array.prototype.reduce) {
     };
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight
 if (!Array.prototype.reduceRight) {
     Array.prototype.reduceRight = function(callbackfn /*, initialValue */) {
 
