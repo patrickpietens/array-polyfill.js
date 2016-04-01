@@ -1,8 +1,8 @@
 {
   "name": "array-polyfill.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of array polyfills taken from https://developer.mozilla.org/",
-  "main": "dist/array.js",
+  "main": "dist/array-polyfill.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "development": "NODE_ENV=development gulp",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrickpietens/arrayjs.git"
+    "url": "git+https://github.com/patrickpietens/array-polyfill.js.git"
   },
   "keywords": [
     "array",
@@ -23,9 +23,9 @@
   "author": "Patrick Pietens <hello@patrickpietens.com> (http://patrickpietens.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patrickpietens/arrayjs/issues"
+    "url": "https://github.com/patrickpietens/array-polyfill.js/issues"
   },
-  "homepage": "https://github.com/patrickpietens/arrayjs#readme",
+  "homepage": "https://github.com/patrickpietens/array-polyfill.js#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "gulp": "^3.9.0",
