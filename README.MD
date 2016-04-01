@@ -1,3 +1,17 @@
+# array-polyfill.js
+Collection of array polyfills taken from https://developer.mozilla.org/
+
+## Example
+```javascript
+import ArrayPolyfill from 'array-polyfill.js';
+```
+
+## Installation
+```bash
+$ npm install array-polyfill.js --save
+```
+
+## License
 The MIT License (MIT)
 
 Copyright (c) 2016 Patrick Pietens

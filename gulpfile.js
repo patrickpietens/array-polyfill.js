@@ -16,7 +16,7 @@ function onError() {
 gulp.task('default', () => {
     let myProduction = process.env.NODE_ENV === 'production';
 
-    let mySource = 'src/array.js',
+    let mySource = 'src/array-polyfill.js',
         myDestination = 'dist';
 
     let myUmdOptions = {

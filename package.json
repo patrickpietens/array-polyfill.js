@@ -1,10 +1,12 @@
 {
-  "name": "arrayjs",
+  "name": "array-polyfill.js",
   "version": "1.0.0",
   "description": "Collection of array polyfills taken from https://developer.mozilla.org/",
   "main": "dist/array.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "NODE_ENV=development gulp",
+    "production": "NODE_ENV=production gulp"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
     "javascript",
     "es6",
     "esnext",
-    "es2016"
+    "es2015"
   ],
   "author": "Patrick Pietens <hello@patrickpietens.com> (http://patrickpietens.com)",
   "license": "MIT",
