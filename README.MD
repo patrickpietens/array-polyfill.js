@@ -3,7 +3,7 @@ Collection of array polyfills taken from https://developer.mozilla.org/
 
 ## Example
 ```javascript
-import ArrayPolyfill from 'array-polyfill.js';
+import 'array-polyfill.js';
 ```
 
 ## Installation
