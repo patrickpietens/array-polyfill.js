@@ -1,8 +1,8 @@
 {
   "name": "array-polyfill.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Collection of array polyfills taken from https://developer.mozilla.org/",
-  "main": "dist/array-polyfill.js",
+  "main": "dist/array.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "development": "NODE_ENV=development gulp",
