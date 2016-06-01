@@ -1,6 +1,6 @@
 {
   "name": "array-polyfill.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collection of array polyfills taken from https://developer.mozilla.org/",
   "main": "dist/array.js",
   "scripts": {
